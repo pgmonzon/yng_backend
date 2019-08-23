@@ -52,5 +52,5 @@ app.use(function(error, req, res, next) {
 // Starting the server
 // *******************
 app.listen(app.get('port'), () => {
-  console.log('YangeeReloaded escuchando en el', app.get('port'));
+  console.log('Services_yng escuchando en el', app.get('port'));
 });
